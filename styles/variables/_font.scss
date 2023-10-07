@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../../public/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Magistral';
+    src: url('../../public/fonts/Magistral-Book.ttf');
+}
+
+@font-face {
+    font-family: 'Magistral-M';
+    src: url('../../public/fonts/Magistral-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Overpass';
+    src: url('../../public/fonts/Overpass-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Omnes';
+    src: url('../../public/fonts/Omnes.ttf');
+}
+
+$font-primary: 'Open Sans', sans-serif;
+$lato: 'Lato';
+$magistral: 'Magistral';
+$magistralM: 'Magistral-M';
+$overpass: 'Overpass';
+$omnes: 'Omnes';
+
+
+
+*{
+    font-family: $lato;
+    font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    font-family: $magistralM;
+}
+h1,.h1{
+    font-size: 48px;
+}
+h2,.h3{
+    font-size: 36px;
+}
+
+p {
+    margin: 0;
+}
+
+.font{
+    &-overpass{
+        font-family: $overpass;
+    }
+}

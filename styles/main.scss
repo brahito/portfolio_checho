@@ -1,0 +1,10 @@
+@import './variables/variables';
+@import '../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+@import './UI/ui';
+
+body{
+    background-color: #F5F5F5;
+    margin: 0;
+}
+
